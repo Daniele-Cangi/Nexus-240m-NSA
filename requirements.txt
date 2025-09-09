@@ -1,0 +1,5 @@
+torch==2.4.0
+transformers>=4.42.0
+sentencepiece>=0.1.99
+einops>=0.8.0
+faiss-cpu>=1.8.0
