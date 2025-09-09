@@ -1,0 +1,33 @@
+{
+  "model_name": "NEXUS-EMB-240M-NSA",
+  "vocab_size": 48000,
+  "d_model": 896,
+  "n_layers": 18,
+  "n_heads": 14,
+  "ffn_hidden": 2304,
+  "activation": "swiglu",
+  "norm": "rmsnorm",
+  "rope_theta": 10000,
+  "max_seq_len": 2048,
+  "dropout": 0.05,
+  "pooling": "topic_aware_pooling",
+  "embedding_dim": 768,
+  "matryoshka_cuts": [
+    768,
+    512,
+    256
+  ],
+  "dual_head": {
+    "semantic_dim": 512,
+    "entity_dim": 256,
+    "gated_concat": true
+  },
+  "residual_hashing": {
+    "bits": 64,
+    "use_ste": true
+  },
+  "topic_head": {
+    "n_topics": 16,
+    "aux_ratio": 0.1
+  }
+}
