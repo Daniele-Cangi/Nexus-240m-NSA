@@ -8,7 +8,7 @@
 [![Made with ❤️](https://img.shields.io/badge/Made%20with-%E2%9D%A4-red)]()  
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](./CONTRIBUTING.md)  
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/)  
-[Build Status](https://github.com/Daniele-Cangi/Nexus-240m-NSA/actions/workflows/ci.yml/badge.svg)  
+  
 
 **NEXUS-EMB-240M-NSA** is a **compact dual-head embedding model** optimized for **edge-first inference** and **high-performance vector search**.  
 This starter kit provides everything needed to **train, evaluate, and export** a state-of-the-art custom embedding model, integrating unconventional techniques for **accuracy, speed, and adaptability**.  
